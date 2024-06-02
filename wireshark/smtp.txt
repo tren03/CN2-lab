@@ -1,0 +1,9 @@
+telnet gmail-smtp-in.l.google.com 25
+helo server.google.com  #check server response from wireshark (220)
+
+check all smtp packets and tcp connections related to them
+
+
+for tcp 
+go to http site
+and in wireshark filter by http, check packet details and verify own mac address as source
