@@ -7,7 +7,7 @@
 #include <arpa/inet.h> 
 #include <string.h> 
 
-#define PORT 8000 
+#define PORT 5001
 #define MAXSZ 100 
 
 int main() { 
